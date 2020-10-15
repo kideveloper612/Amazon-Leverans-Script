@@ -1,0 +1,688 @@
+/*globle clases start*/
+
+
+@font-face {
+    font-family: "Raleway-Medium";
+    
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: "Raleway-Bold";
+    
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Raleway-SemiBold";
+    
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: "SF-Pro-Display-bold";
+    
+    src: url(../fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+    font-family: "SF-Pro-Display-Light";
+    
+    src: url(../fonts/SF-Pro-Display-Light.otf);
+}
+@font-face {
+    font-family: "Amatic-Bold";
+    
+    src: url(../fonts/Amatic-Bold.ttf);
+}
+@font-face {
+    font-family: "SF-Pro-Display-Black";
+    
+    src: url(../fonts/SF-Pro-Display-Black.otf);
+}
+.R-semibold{
+      font-family: "Raleway-SemiBold";
+}
+.R-bold{
+       font-family: "Raleway-Bold";
+}
+html,body{
+    overflow-x: hidden;
+   background-color: #ebebeb;
+}
+
+
+
+
+
+.css-typing p {
+  border-right: .15em solid orange;
+  /*font-family: "Courier";*/
+  /*font-size: 25px;*/
+  white-space: nowrap;
+  overflow: hidden;
+  margin:auto;
+
+}
+.css-typing p:nth-child(1) {
+  width: 67%;
+  -webkit-animation: type 2s steps(40);
+  animation: type 2s steps(40);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-one {
+    background: #222f3e;
+}
+.header-two {
+    background: #364759;
+}
+.header {
+    background: #222f3e;
+    padding: 10px;
+}
+.logo{
+    width: 31px;
+    margin-top: 5px;
+}
+.Menu{
+
+    text-align: center;
+    color: white;
+}
+
+.bilka{
+    width: 90px;
+    margin-top: 10px;
+}
+
+.cart{
+        width: 27px;
+/*        margin-left: 27px;*/
+}
+.header-search{
+    background: #ffffff52;
+    border-radius: 50%;
+    padding: 12px;
+        margin-top: 3px;
+            margin-left: 12px;
+}
+/*.menu-right p {
+    margin-left: 31px;
+}*/
+.header-2{
+    background-color:  #364759;
+    padding: 5px 20px 5px 11px;
+    color: white;
+   font-size: 16px;
+}
+/* Styles for wrapping the search box */
+
+.main {
+    width: 83%;
+    margin: 10px auto;
+}
+.search-icon {
+    font-size: 14px;
+    background: #fcbb6b;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+input.form-control {
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.search-icon {
+    font-size: 14px;
+    background: #fcbb6b;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+input.form-control {
+    padding-top: 0px!important;
+    padding-bottom: 0px;
+    font-size: 14px;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.banner img{
+    width: 100%;
+}
+.only-text {
+    text-align: center;
+    background: #fbba69;
+    color: white;
+    padding: 8px 0px 8px 0px;
+}
+
+/*page 1 css*/
+
+img.win {
+    margin-top: -10px;
+}
+
+
+/*page 1 css end*/
+
+#page-1{
+
+}
+.page-one-content{
+     font-family: "Raleway-SemiBold";
+     margin-top: 4%;
+}
+.card-one{
+   width: 30%;
+       height: 568px;
+margin: 2% auto;
+}
+h5.card-title {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.trace {
+    background-color: #F1C65D;
+    width: 80%;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px;
+    margin-bottom: 7%;
+        margin-top: 4%;
+}
+.btn{
+   -webkit-appearance: none;
+}
+.time-one{
+    color: #009400;
+}
+/*hide pages*/
+
+/*page two start*/
+#page-2{
+    display: none;
+}
+#myProgress {
+ 
+ background-color: #14dd14;
+    position: absolute;
+    top: 41%;
+    left: -69px;
+    width: 245px;
+    border-radius: 24px;
+}
+.vertical {
+  box-shadow: inset 0px 4px 6px #ccc;
+}
+.vertical {
+  display: inline-block;
+  width: 100%;
+      height: 9px;
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+      transform: rotate(90deg);
+}
+#myBar {
+  width: 1%;
+      height: 8px;
+  background-color: #024400;
+
+}
+.search{
+    border: 1px solid #eeeeee;
+    width: 80%;
+    margin-bottom: 8%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    box-shadow: inset -16px 18px 10px -18px rgba(0,0,0,0.5);
+        margin: auto;
+           font-family: "Raleway-SemiBold";
+}
+.small-text {
+    font-size: 13px;
+    color: #989898;
+}
+.tick {
+    color: #009400;
+    font-size: 18px;
+}
+.d, .b, .c, .a {
+    width: 18%;
+    margin-left: 17%;
+}
+.fa-times{
+      color: red;
+    font-size: 18px;
+}
+.Expected-delivery{
+   visibility: hidden;
+}
+.tick-1 {
+    visibility: hidden;
+}
+.z {
+    width: 16%!important;
+}
+.tick-2 {
+    visibility: hidden;
+}
+.cross  {
+    visibility: hidden;
+}
+#myProgress {
+    visibility: hidden;
+}
+.para {
+    font-size: 15px;
+    margin-bottom: 12%;
+}
+.field-saerch {
+    margin-right: 5%;
+}
+.final{
+       background-color: #F1C65D;
+    width: 80%;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px;
+    margin-bottom: 7%;
+}
+.margin-left {
+    margin-left: -12px;
+}
+/*page-two end*/
+
+
+
+/*foter css start*/
+.whole-top-footer {
+    background: #232f3e;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.list-inline-item {
+    display: inline-block;
+    font-size: 12px;
+}
+.row.whole-bootom-footer {
+    background: #364759;
+}
+.top-footer {
+background-color: #232f3e;
+margin-left: 0px;
+margin-right: 0px;
+
+}
+
+.top-footer ul{
+    margin-bottom: opx!important;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.footer {
+    background-color: #364759;
+}
+.footer-bg{
+    background: #364759;
+}
+.footer-p{
+    font-size: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 6%;
+    margin-right: 27%;
+    margin-left: 16px;
+    color: white;
+}
+.last-p {
+    margin-bottom: 0px;
+    font-size: 11px;
+        padding-bottom: 6%;
+}
+.footer p span{
+    background: #336699;
+    border-radius: 3px;
+    padding: 1px 7px 1px 7px;
+    margin-right: 10px;
+}
+.footer img {
+    width: 45%;
+}
+.footer .list-inline-item:not(:last-child) {
+    margin-right: -28px;
+}
+.footer-logo {
+    width: 24%;
+}
+.delay {
+    animation-duration: 4s!important;
+    animation-delay: unset;
+}
+
+/*madale csss*/
+
+
+.arrow {
+    width: 56%;
+    margin-top: 24px;
+}
+.bar-img {
+    width: 70%!important;
+
+    margin-bottom: 36px;
+}
+
+
+.p-red{
+    color: #cc3333;
+}
+.sorry{
+        color: #6699cc;
+        font-size: 60px;
+}
+
+
+
+/*confetti efect*/
+
+/*confetti effect end*/
+/*media queries css*/
+@media screen and (min-width: 426px) {
+.main-header {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+@media screen and (max-width: 1600px) {
+}
+
+
+}
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1024px) {
+ .header-search {
+
+    margin-left: 0px;
+}
+.card-one {
+    width: 36%;
+}
+    }
+
+@media screen and (max-width: 768px) {
+.card-one {
+    width: 47%;
+}
+}   
+@media screen and (max-width: 425px) {
+  .card-one {
+    width: 85%;
+        margin: 7% auto;
+}
+.whole-top-footer {
+    background: #232f3e;
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+.d, .b, .c, .a {
+    width: 19%;
+    margin-left: 4%;
+}
+.margin-left {
+        margin-left: -21px;
+}
+.list-inline-item {
+    display: inline-block;
+    font-size: 7px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0px;
+}
+}
+@media screen and (max-width: 375px) {
+
+
+.final {
+    width: 90%;
+    margin-top: -11px;
+}
+#myProgress {
+
+    left: -92px;
+    }
+ .search {
+
+    width: 90%;
+}
+.trace {
+
+    width: 90%;
+
+}
+h5.card-title {
+    font-size: 12px;
+
+}
+.small-text {
+    font-size: 12px;
+ 
+}
+.para {
+    font-size: 12px;
+    margin-bottom: 12%;
+}
+#myProgress {
+    left: -66px;
+    width: 202px;
+}
+.card-one {
+
+    height: 497px;
+    }
+.footer-p {
+    margin-right: 31%;
+}
+.d, .b, .c, .a {
+    width: 19%;
+    margin-left: 0%;
+}
+}
+@media screen and (max-width: 360px) {
+    .prize {
+    width: 80%!important;
+}
+.d, .b, .c, .a {
+    width: 19%;
+    margin-left: -27%;
+}
+.play {
+    width: 80%;
+    margin-top: 13px;
+}
+img.win {
+    margin-top: 0px;
+    width: 92%;
+}
+.footer-p {
+    margin-left: -24px;
+
+}
+
+.amzazon-white{
+    width: 48%;
+    margin-top: 12px!important;
+}
+.final {
+    width: 90%;
+    margin-top: -11px;
+}
+.footer-p {
+    margin-right: 22%;
+}
+ }
+@media screen and (max-width: 320px) {
+ .card-one {
+    width: 93%;
+    margin: 7% auto;
+}
+.d, .b, .c, .a {
+    width: 19%;
+    margin-left: -25%;
+}
+h5.card-title {
+    font-size: 11px;
+}
+.para {
+    font-size: 11px;
+    margin-bottom: 12%;
+}
+.final {
+    width: 90%;
+
+}
+.list-inline-item {
+    display: inline-block;
+    font-size: 6px;
+}
+.footer .list-inline-item:not(:last-child) {
+    margin-right: -31px;
+}
+.footer-p {
+    margin-left: -4px;
+
+}
+.footer-p {
+    margin-right: 20%;
+}
+
+.amzazon-white{
+    width: 48%;
+}
+.text p {
+    font-size: 15px;
+}
+.text-tw0 p {
+    font-size: 13px;
+}
+.card-one {
+    height: 490px;
+}
+}
